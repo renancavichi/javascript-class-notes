@@ -161,8 +161,8 @@ console.log(multiplicaTudo(2, 3, 2, 5))
 
 class Car {
     constructor(name, year) {
-      this.name = name;
-      this.year = year;
+      this.name = name
+      this.year = year
     }
     showCar(){
         console.log(`O nome é ${this.name} ano ${this.year}`)
